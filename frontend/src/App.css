@@ -1,0 +1,45 @@
+body {
+  text-align:center;
+  padding:0;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.item {
+  border-style:solid;
+  border-color:gray;
+  border-radius:5px;
+  border-width:1.5px;
+  margin:2px;
+  width:50%;
+  text-align:left;
+  display:inline-block;
+}
+
+p {
+  margin:1rem;
+}
+
+input {
+  width:50%;
+  margin:7px;
+  padding:1rem;
+}
+
+button {
+  border:none;
+  border-radius:5px;
+  padding:1rem;
+  color:white;
+  background-color: rgb(200, 65, 65);
+  font-size:1rem;
+  transition-duration:0.7s;
+  margin:1px;
+}
+
+button:hover {
+  background-color: rgb(164, 46, 46);
+}
+
+#submit {
+  margin-bottom:20px;
+}
